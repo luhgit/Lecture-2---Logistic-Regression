@@ -20,7 +20,13 @@ Steps:
  
 * The previous command might take some time ...
 * Once it has finished, run in your console:
-* source activate 
+* source activate dl
+* dl is the name of the environment
+
+* To leave the environment use:
+
+* source deactivate dl
+
 
 
 # Installing the environment using the requirements.txt file 
@@ -29,12 +35,15 @@ Steps:
 * Create a copy of the repository (git clone NAME_REPO)
 
 * Enter the repository
+* Create a new environment, run in your console:
+* conda create --name NAME_ENVIRONMENT python=3
+* Then run:
+* source activate NAME_ENVIRONMENT
 * Go to the folder Environment
 
 * Now type in your console:
-* pip install requirements.txt
+* pip install -r requirements.txt
 
 # How to make sure everything is ok?
 * Run the script test.py
 * If the message "You are ready for saturday's Dojo" appears, then you will be fine.
-
