@@ -1,0 +1,2 @@
+type: update
+description: added ipython notebooks with the exercises for the class
