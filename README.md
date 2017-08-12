@@ -4,4 +4,4 @@ This repository contains all the relevant files for the second Data Science Dojo
 
 **Description of folders:**
 * Environments -> Setup your environment
-* Exercises -> Implement your own logistic regression
+* Exercises -> Implement your own logistic regression, create a sentiment analysis model, analyze your data, framing text mining problems
