@@ -1,2 +1,2 @@
 type: update
-description: added ipython notebooks with the exercises for the class
+description: added ipython notebook for classification and logistic regression
